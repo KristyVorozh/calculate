@@ -1,0 +1,41 @@
+button {
+    background: #b3d1cb;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+input {
+    background: #2f484647;
+    border: none;
+    margin-left: 3px;
+    padding: 6px 0px 6px 9px;
+    width: 135px;
+    outline: none;
+}
+.main_container {
+    width: 150px;
+    background: #b9ecff61;
+    -webkit-box-shadow: 1px 4px 67px 9px rgba(34, 60, 80, 0.31);
+    -moz-box-shadow: 1px 4px 67px 9px rgba(34, 60, 80, 0.31);
+    box-shadow: 1px 4px 67px 9px rgba(34, 60, 80, 0.31);
+    border-radius: 12px;
+    padding: 15px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.main_flex{
+    display: flex;
+    align-items: center;
+}
+.main_flex-clear{
+    width: 67px;
+    height: 27px;
+    margin: 4px;
+}
+.main_flex-number{
+    width: 30px;
+    margin: 4px;
+    height: 27px;
+}
